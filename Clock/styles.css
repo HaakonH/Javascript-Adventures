@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Lato'); 
+/* latin-ext */
+body {
+    background-color: #333; 
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
+
+.headerClass {
+    margin-top: 25px;
+    margin-left: 120px;
+    font-size: 28px; 
+    font-family: Lato, Arial, sans-serif;
+    color: #e6e6e6;
+    float:left;
+}
+
+.headerSmall {
+    margin-top: 25px;
+    margin-right: 120px; 
+    font-family: Lato, Arial, sans-serif;
+    font-size: smaller;
+    float: right;
+}
+
+.mainContent {
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-bottom: 10px; 
+}
+
+
+.clocks {
+    height: 600px;
+    margin: 25px auto;
+    position: relative;
+    width: 600px;
+}
+#myFooter {
+	text-align: center;
+    color:white;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#myFooter .footer-copyright{
+	background-color: #383737;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
